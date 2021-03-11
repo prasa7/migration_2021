@@ -30,9 +30,9 @@ cp apim_registry.xml wso2am-2.6.0/repository/conf/registry.xml
 cp postgresql-42.2.18.jar wso2am-2.6.0/repository/components/lib/
 cp postgresql-42.2.18.jar wso2is-km-5.7.0/repository/components/lib/
 #Copy IS KM apimanager xml
-cp iskm_api-manager.xml wso2is-km-5.7.0/repository/conf/
+cp iskm_api-manager.xml wso2is-km-5.7.0/repository/conf/api-manager.xml
 #Copy AM api manager xml
-cp apim_api-manager.xml wso2am-2.6.0/repository/conf/
+cp apim_api-manager.xml wso2am-2.6.0/repository/conf/api-manager.xml
 
 
 
