@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+ db:
+    container_name: pg_container_reg_2_6
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: reg_2_6
+    ports:
+      - "5436:5432"
+    volumes:
+      - $HOME/Desktop/PostgreSql-Snippets/infile:/infile
+      - pg_data:/var/lib/postgresql/2_6_to_4_0_postgrace/reg-data/
+volumes:
+  pg_data:
